@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Print Hello World",
+      "setup": "g++ main.cpp -o main",
+      "run": "./main",
+      "input": "",
+      "output": "Hello, World!",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 100
+    }
+  ]
+}
